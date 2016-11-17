@@ -1,0 +1,35 @@
+2016-11-13 18:55:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PROYECTO" no encontrada
+Table "PROYECTO" not found; SQL statement:
+SELECT ID FROM PROYECTO WHERE ID <> ID [42102-191]
+2016-11-13 18:55:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "MATERIA" no encontrada
+Table "MATERIA" not found; SQL statement:
+SELECT ID FROM MATERIA WHERE ID <> ID [42102-191]
+2016-11-13 18:55:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ENTREGABLE" no encontrada
+Table "ENTREGABLE" not found; SQL statement:
+SELECT ID FROM ENTREGABLE WHERE ID <> ID [42102-191]
+2016-11-13 18:55:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ESTUDIANTE" no encontrada
+Table "ESTUDIANTE" not found; SQL statement:
+SELECT ID FROM ESTUDIANTE WHERE ID <> ID [42102-191]
+2016-11-13 18:55:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ETIQUETA" no encontrada
+Table "ETIQUETA" not found; SQL statement:
+SELECT ID FROM ETIQUETA WHERE ID <> ID [42102-191]
+2016-11-13 18:55:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ESTUDIANTE_PROYECTO" no encontrada
+Table "ESTUDIANTE_PROYECTO" not found; SQL statement:
+SELECT estudiante_id FROM estudiante_proyecto WHERE estudiante_id <> estudiante_id [42102-191]
+2016-11-13 18:55:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PROYECTO_ETIQUETA" no encontrada
+Table "PROYECTO_ETIQUETA" not found; SQL statement:
+SELECT tag_id FROM proyecto_etiqueta WHERE tag_id <> tag_id [42102-191]
+2016-11-13 18:55:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "SEQUENCE" no encontrada
+Table "SEQUENCE" not found; SQL statement:
+SELECT SEQ_NAME FROM SEQUENCE WHERE SEQ_NAME <> SEQ_NAME [42102-191]
+2016-11-15 12:09:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROYECTOPROGRAMACION" not found; SQL statement:
+SELECT ID FROM PROYECTOPROGRAMACION WHERE ID <> ID [42102-191]
